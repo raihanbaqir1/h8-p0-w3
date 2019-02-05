@@ -1,6 +1,6 @@
 //kata = "antonio"
 
-function balikKata(kata){
+function palindrome(kata){
     var result = ''
     for(var i = kata.length-1; i >=0; i--){
         result = result + kata[i];
@@ -12,4 +12,4 @@ function balikKata(kata){
     }
 
 }
-console.log(balikKata('mister'));
+console.log(palindrome('mister'));
