@@ -1,7 +1,7 @@
 //kata = "antonio"
 
 function palindrome(kata){
-    var result = ''
+    var result = ""
     for(var i = kata.length-1; i >=0; i--){
         result = result + kata[i];
     }
@@ -12,4 +12,4 @@ function palindrome(kata){
     }
 
 }
-console.log(palindrome('mister'));
+console.log(palindrome("mister"));
