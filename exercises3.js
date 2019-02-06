@@ -5,14 +5,13 @@ var input =[["0001", "Roman Alamsyah", "Bandar Lampung", "21/05/1989", "Membaca"
             ]
 
 function dataHandling(input){
-    var i=0;
-    while(i<input.length){
+    for(var i = 0; i < input.length; i++){
         console.log("Nomor ID:"+" "+input[i][0]);
         console.log("Nama Lengkap:"+" "+input[i][1]);
         console.log("TTL:"+" "+input[i][2]+", "+input[i][3]);
         console.log("Hobi:"+" "+input[i][4]);
-        i++
-        console.log('')
+        console.log(' ');
     }
+    
 }
 dataHandling(input)
