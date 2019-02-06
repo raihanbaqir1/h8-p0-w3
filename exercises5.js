@@ -12,4 +12,4 @@ function palindrome(kata){
     }
 
 }
-console.log(palindrome("mister"));
+console.log(palindrome("civic"));
