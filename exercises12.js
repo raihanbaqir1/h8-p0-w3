@@ -6,7 +6,7 @@ function tentukanDeretGeometri(arr) {
         multiplier.push(divide);
         divide = arr[i];
     }
-    // console.log(multiplier);
+   
     if(multiplier[1]===multiplier[2]){
         return true;
     } else{
